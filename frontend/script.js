@@ -1,6 +1,6 @@
 
 // ===== 1. API KEY & SMART MODELS ===== let API_KEY = localStorage.getItem('jarvis_key'); if(!API_KEY)
-{ API_KEY = prompt('Enter your Gemini API Key:'); if(API_KEY) localStorage.setItem('jarvis_key', API_KEY); } c
+{ API_KEY = prompt('AQ.Ab8RN6Iu_b6IofDzsOvWpoDvd-6B1lC0SHNOQYAtSSBLvW_TKQ:'); if(API_KEY) localStorage.setItem('jarvis_key', API_KEY); } c
 onst MODELS = ["gemini-3.5-flash", "gemini-3.1-flash-lite", "gemini-flash-latest"]; // ===== 2. MEMORY SYSTEM
 ===== let MEMORY = JSON.parse(localStorage.getItem('jarvis_memory') || '[]'); function saveMemory(){ localStor
 age.setItem('jarvis_memory', JSON.stringify(MEMORY)); } const chat=document.getElementById('chat'); const inpu
